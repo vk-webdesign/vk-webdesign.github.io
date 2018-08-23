@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // Divide the browser default font size (default-16px), 
+    // by desired font size and ender this value here 
+    // 10 / 16 = 0.625 = 62.5% */
+    // default font size 16. .625 * 16 = 10 
+    // default font adjusted to 20. .625 * 20 = 12.5 
+    font-size: 62.5%;
+    // This value defines what 1rem is
+}
+
+body {
+    box-sizing: border-box;
+}

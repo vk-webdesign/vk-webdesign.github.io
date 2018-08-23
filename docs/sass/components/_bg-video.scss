@@ -1,0 +1,17 @@
+.bg-video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .15;
+    overflow: hidden; // hides the overflow of the video that seeps into the margins
+
+    &__content {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; // allows the video to fill the entire parent while maintaining its original aspect ratio. Parts of the video that overflow the container will be clipped. Also works with images
+
+    }
+}
