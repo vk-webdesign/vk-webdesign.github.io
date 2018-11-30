@@ -1,0 +1,18 @@
+.widget {
+    position: relative;
+    margin: auto;
+
+
+    &__dribbble {
+        margin:auto;
+        background-color: $color-main;
+    }
+
+    &__prompt {
+        background-color: $color-main;
+    }
+
+    &__button {
+        background-color: $color-main;
+    }
+}

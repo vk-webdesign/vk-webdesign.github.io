@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #FFFFF3; }
+
+.widget {
+  position: relative;
+  margin: auto; }
+  .widget__dribbble {
+    margin: auto;
+    background-color: #2E294E; }
+  .widget__prompt {
+    background-color: #2E294E; }
+  .widget__button {
+    background-color: #2E294E; }

@@ -1,0 +1,30 @@
+{
+  "name": "design-inspiration",
+  "version": "1.0.0",
+  "description": "generate portfolio project ideas",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vk-webdesign/cp1-final-project-fall-2018.git"
+  },
+  "keywords": [
+    "design",
+    "inspiration",
+    "generator"
+  ],
+  "author": "Vincent Keeffe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vk-webdesign/cp1-final-project-fall-2018/issues"
+  },
+  "homepage": "https://github.com/vk-webdesign/cp1-final-project-fall-2018#readme",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  },
+  "dependencies": {
+    "p5": "^0.7.2"
+  }
+}
